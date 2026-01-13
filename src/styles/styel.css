@@ -10,39 +10,7 @@ body{
     background-color: #141619;
 }
 
-.navbar{
-    width: 100%;
-    height: 88px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 40px;
-}
-
-
-.navbar a{
-    text-decoration: none;
-    margin-left: 10px;
-    font-size: 15px;
-    font-weight: 400;
-}
-
-.navbar button{
-    background-color: transparent;
-    border: none;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.status{
-    background: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%);
-    border-radius: 8px;
-    width: 16px;
-    height: 16px;
-}
-
-#hero, #about{
+#hero, #about, #services{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,8 +41,17 @@ p{
 
 /* background: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%); */
 
-#about{
+#about, #services{
     margin-top: 200px;
+}
+
+#about h2, #services h2{
+    font-size: 56px;
+    font-weight: 500;
+}
+
+#services {
+    position: relative;
 }
 
 .about_cards {
@@ -121,4 +98,78 @@ p{
 .about_card p:nth-child(1){
     font-size: 38px;
     font-weight: 500;
+}
+
+#services article{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 150px;
+    gap: 40px;
+}
+
+.card_info{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    width: 400px;
+}
+
+.card_info p{
+    text-align: start;
+    width: 98%;
+
+}
+
+.card_info a{
+    height: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: none;
+    background-image: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%);
+    background-size: 100% 3px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    padding-bottom: 6px;
+}
+
+.strong{
+    font-weight: 700;
+}
+
+.more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+.bg{
+    position: absolute;
+    height: 2019.48px;
+    width: 2000px;
+    left: -500px;
+    right: 700px;
+    top: -150px;
+    z-index: -1;
+
+    background: url(../images/bg_shadow.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg2{
+    width: 772px;
+    height: 760px;
+    position: absolute;
+    top: -150px;
+    left: -120px;
+    z-index: -1;
+    background: url(../images/bg2.png);
+    background-size: cover;
+    background-position: center;
 }

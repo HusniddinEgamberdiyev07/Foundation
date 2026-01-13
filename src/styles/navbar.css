@@ -1,0 +1,32 @@
+
+.navbar{
+    width: 100%;
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+
+.navbar a{
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.navbar button{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.status{
+    background: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%);
+    border-radius: 8px;
+    width: 16px;
+    height: 16px;
+}
