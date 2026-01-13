@@ -47,6 +47,10 @@ p{
     margin-top: 200px;
 }
 
+#hero{
+    padding-top: 120px;
+}
+
 #about h2, #services h2, #connections h2{
     font-size: 56px;
     font-weight: 500;
